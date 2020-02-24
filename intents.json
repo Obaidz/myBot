@@ -1,0 +1,80 @@
+
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "sup", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye","bye bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old are you", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","who are you"],
+         "responses": ["You can call me Jarvis.", "I'm Jarvis!", "I'm Jarvis."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you recommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "buy",
+          "patterns": ["can I buy something","how much is a cookie"],
+          "responses": ["yes cookies are $2"],
+          "context_set": ""
+        },
+        {"tag": "busy",
+          "patterns": ["are you busy?","are you free?", "are you available?"],
+          "responses": ["yes, always available", "yes SIR"],
+          "context_set": ""
+        },
+        {"tag": "feel",
+          "patterns": ["how are you?","you good?", "everything alright?", "how are you", "how are you?"],
+          "responses": ["yes SIR", "i am good", "im good "],
+          "context_set": ""
+        },
+        {"tag": "studies",
+          "patterns": ["how is the study going?","college going good?"],
+          "responses": ["yes its going good"],
+          "context_set": ""
+        },
+        {"tag": "day",
+          "patterns": ["how was you day", "how was your day", "you day"],
+          "responses": ["it went great", "it went great", "missed you"],
+          "context_set": ""
+        },
+        {"tag": "what do you like",
+          "patterns": ["what do you like"],
+          "responses": ["Doritos with salsa","BOOBS"],
+          "context_set": ""
+        },
+        {"tag": "shabooya",
+          "patterns": ["shabooya","shaboya"],
+          "responses": ["SHABOOYAAAAAAA"],
+          "context_set": ""
+        },
+        {"tag": "what",
+          "patterns": ["what you doing now","now what are you doing","free now"],
+          "responses": ["Chatting with you", "Nothing much and you?"],
+          "context_set": ""
+        },
+        {"tag": "jarvis",
+          "patterns": ["jarvis","jarvis"],
+          "responses": ["yes sir","YES SIR","AT YOUR SERVICE"],
+          "context_set": ""
+        }
+
+    ]
+}
